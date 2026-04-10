@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     menu.classList.remove("active");
   });
 
-  const urlCSV = "https://docs.google.com/spreadsheets/d/1bUFgA8qUTXSAC4gqhsUTU25_dMEaKbM3YgWp4yg8tcU/export?format=csv&gid=0#gid=0";
-  // const urlCSV = "https://docs.google.com/spreadsheets/d/1bwiFKG_QBhnAFQosHdEurjuu3a248IdDO_aR4vonJB4/export?format=csv&gid=0#gid=0";
+  // const urlCSV = "https://docs.google.com/spreadsheets/d/1bUFgA8qUTXSAC4gqhsUTU25_dMEaKbM3YgWp4yg8tcU/export?format=csv&gid=0#gid=0";
+  const urlCSV = "https://docs.google.com/spreadsheets/d/1bwiFKG_QBhnAFQosHdEurjuu3a248IdDO_aR4vonJB4/export?format=csv&gid=0#gid=0";
 
   try {
     let csvText = sessionStorage.getItem("csvText");
